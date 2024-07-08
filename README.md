@@ -1,5 +1,3 @@
-Here is the README file for the provided code:
-
 **Collision Detection using YOLO and DeepSORT**
 
 This repository contains a Python script that demonstrates a collision detection system using YOLO (You Only Look Once) for object detection and DeepSORT for object tracking. The system is designed to detect collisions between vehicles in video footage.
