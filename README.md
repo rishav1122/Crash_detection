@@ -36,7 +36,7 @@ The script generates several output files, including:
 
 The current implementation has some limitations, including:
 
-* Currently, it is based on a defined method; we could also train the model to detect crash if large amount of data is there
+* Currently, it is based on a defined method; we could also train the model to detect crash if large amount of data is there 
 * The system may detect false positives or false negatives depending on the video quality, camera angle, and lighting conditions.
 * The system may not generalize well to different scenarios or environments.
 
@@ -44,7 +44,7 @@ The current implementation has some limitations, including:
 
 Several improvements can be made to the system, including:
 
-* Could use any advanced object detection model to detect cars
-* Could use any advanced tracking algorithm to track cars
-* Could use object detectors hich give quadrilateral output rather than rectangles parallel to x and y axis
+* Could use any advanced object detection model to detect cars (YOLOv8)
+* Could use any advanced tracking algorithm to track cars (BotSORT, DeepocsSORT)
+* Could use object detectors that give quadrilateral output rather than rectangles parallel to x and y axis (Florence)
 
