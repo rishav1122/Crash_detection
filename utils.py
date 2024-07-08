@@ -1,26 +1,25 @@
 import torch
 import cv2
 import numpy as np
-import pandas as pd
 import os
 import gdown
 from deep_sort_pytorch.utils.parser import get_config
 from deep_sort_pytorch.deep_sort import DeepSort
 
-model = torch.hub.load('ultralytics/yolov5', 'yolov5x6')
+# model = torch.hub.load('ultralytics/yolov5', 'yolov5x6')
 # Define the path to the DeepSORT weights
 REID_CKPT = "deep_sort_pytorch/deep_sort/deep/checkpoint/ckpt.t7"
 
 # # Function to download DeepSORT weights if not present
-# def download_deepsort_weights():
-#     if not os.path.exists(REID_CKPT):
-#         os.makedirs(os.path.dirname(REID_CKPT), exist_ok=True)
-#         url = "https://drive.google.com/uc?id=1_6PxmAcjS6iR2Y4StbVZG6gLPZ1U7v-W"
-#         gdown.download(url, REID_CKPT, quiet=False)
-#         print("DeepSORT weights downloaded.")
+def download_deepsort_weights():
+    if not os.path.exists(REID_CKPT):
+        os.makedirs(os.path.dirname(REID_CKPT), exist_ok=True)
+        url = "https://drive.google.com/uc?id=1VbVJaPjOk9WujvGVJ034mTJLHj12Y7Mt"
+        gdown.download(url, REID_CKPT, quiet=False)
+        print("DeepSORT weights downloaded.")
 
 # Initialize YOLOv5 model
-
+download_deepsort_weights()
 # Initialize DeepSORT
 def init_deepsort():
     cfg = get_config()
