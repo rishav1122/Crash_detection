@@ -3,8 +3,8 @@
 This repository contains a Python script that demonstrates a collision detection system using YOLOv5 (You Only Look Once) for object detection and DeepSORT for object tracking. The system is designed to detect collisions between cars in video footage.
 
 ## **Directly see the results**
-1. Add the copy of this colab to your drive - [Colab link]([url](https://colab.research.google.com/drive/1yP7NKlEPJmsNj19Zfrd3xcrbKYT8Rs-0?usp=sharing))
-2. Add the shortcut of this shared folder to your drive [Folder shared with you]([url](https://drive.google.com/drive/folders/1S6PHLtKubaEmb4elW0O0IDX8bsusIp-u?usp=sharing))
+1. Add the copy of this colab to your drive - [Colab link](https://colab.research.google.com/drive/1yP7NKlEPJmsNj19Zfrd3xcrbKYT8Rs-0?usp=sharing)
+2. Add the shortcut of this shared folder to your drive [Folder shared with you](https://drive.google.com/drive/folders/1S6PHLtKubaEmb4elW0O0IDX8bsusIp-u?usp=sharing)
 3. Put the setting to T4 and do run all
 
 
