@@ -2,7 +2,7 @@ import torch
 import cv2
 import json
 import numpy as np
-import utils
+from utils import detect_vehicles, track_vehicles, detect_collisions, format_results, draw_tracks, init_deepsort
 
 def main(video_path, collision_threshold, output_video_path, detections_output, collisions_output, frame_folder):
     # Initialize DeepSORT
