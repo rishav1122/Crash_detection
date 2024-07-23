@@ -46,5 +46,5 @@ Several improvements can be made to the system, including:
 
 * Could use any advanced object detection model to detect cars (YOLOv8)
 * Could use any advanced tracking algorithm to track cars (BotSORT, DeepocsSORT)
-* Could use object detectors that give quadrilateral output rather than rectangles parallel to x and y axis (Florence)
+* Could use object detectors that give quadrilateral output rather than rectangles parallel to x and y axis (YOLO-R)
 
